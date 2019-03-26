@@ -55,6 +55,9 @@ def show_help():
 
 
 def create_folder(dirPATH):
+    """
+    Create folders needed
+    """
     binPATH = dirPATH + "bincode/"
     seedPATH = dirPATH + "seed/"
     outputPATH = dirPATH + "output/"
@@ -87,6 +90,9 @@ def parse_args():
 # delete pragma solidiy xxxx
 # in case of compiler version problem
 def preProcess(seedPATH, fileName):
+    """
+    Preprocess of smart contracts
+    """
     f1 = open(contractPATH + fileName, 'r')
     f2 = open(seedPATH + "PreProcess" + "_" + fileName, 'w')
 
@@ -101,6 +107,9 @@ def preProcess(seedPATH, fileName):
 
 
 def update_weight(dirPATH, fileName, combination):
+    """
+    Update mutator weights
+    """
     # need mutator_diff_file.json
     diff_file = open(dirPATH + fileName, 'r')
     diff_list = diff_file.readlines()
@@ -151,7 +160,7 @@ def editLine(dirPATH, filename, lineno, diff):
     frw.seek(seekpoint, 0)
 
     # read the line we want to discard
-    test = fro.readline()  # 读入一行进内内存 同时！ 文件指针下移实现删除
+    test = fro.readline()  # 读入一行进内存 同时！ 文件指针下移实现删除
     test = diff
     frw.writelines(test)
 
@@ -169,6 +178,9 @@ def editLine(dirPATH, filename, lineno, diff):
 
 
 def del_folder(path) :
+    """
+    Empty the folder
+    """
     for i in os.listdir(path) :
         path_file = os.path.join(path, i)
         if os.path.isfile(path_file) :
@@ -177,7 +189,10 @@ def del_folder(path) :
             del_folder(path_file)
 
 
-def scheduling(contractList, diff_pri, time_pri):  # DPSA
+def scheduling(contractList, diff_pri, time_pri):
+    """
+    Dynamic Priority Scheduling Algorithm
+    """
 	# print(contractList, diff_pri, time_pri)
 	sortList = []
 	priority = {}
@@ -572,8 +587,14 @@ def main():
     
 
 def print_report():
-    print(totalVarient, X1, X2, X3, X4, X5, X6, X7)
-    
+    """
+    Show final report
+    """
+    # print(totalVarient, X1, X2, X3, X4, X5, X6, X7)
+    title = "Detection Report"
+    print(fmt(color.YELLOW, title.center(os.get_terminal_size().columns)))
+
+    print("\n")
 
 if __name__ == '__main__':
     show_help()
