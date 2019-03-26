@@ -1,0 +1,4 @@
+890eba68: flag()
+4ddd108a: money()
+87f71cef: multiPath(uint256,uint256)
+aa237e21: set(bool,uint256)
