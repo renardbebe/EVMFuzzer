@@ -50,7 +50,7 @@ def show_help():
     print("   3 >> Fuzzing.")
     print("   4 >> Sending the report.")
 
-    print("\nREQUIREMENT:")
+    print("\nRECOMMEND:")
     print("   solc v0.4.24")
 
 
@@ -193,19 +193,19 @@ def scheduling(contractList, diff_pri, time_pri):
     """
     Dynamic Priority Scheduling Algorithm
     """
-	# print(contractList, diff_pri, time_pri)
-	sortList = []
-	priority = {}
-	for i in range(len(contractList)):
-		priority[i] = 0.7 * diff_pri[contractList[i]] + 0.3 * time_pri[contractList[i]]
-	# sorted by priority
-	data = [(pri, name) for pri, name in zip(priority, contractList)]
-	data.sort(reverse=True)
-	sortList = [name for pri, name in data]
-	# update time priority
-	for i in range(1, len(contractList)):
-		time_pri[contractList[i]] += 1
-	return sortList
+    # print(contractList, diff_pri, time_pri)
+    sortList = []
+    priority = {}
+    for i in range(len(contractList)):
+        priority[i] = 0.7 * diff_pri[contractList[i]] + 0.3 * time_pri[contractList[i]]
+    # sorted by priority
+    data = [(pri, name) for pri, name in zip(priority, contractList)]
+    data.sort(reverse=True)
+    sortList = [name for pri, name in data]
+    # update time priority
+    for i in range(1, len(contractList)):
+        time_pri[contractList[i]] += 1
+    return sortList
 
 def main():
     # args = parse_args()
@@ -376,7 +376,7 @@ def main():
                                 print("pyevm Fail!")
 
                             retcode = subprocess.call(
-                                "evm --debug --json --code " + bincode + " --input " + sigName[2:] + " run > " + outputPATH + "gethout.json",
+                                "./evm --debug --json --code " + bincode + " --input " + sigName[2:] + " run > " + outputPATH + "gethout.json",
                                 shell=True)
                             if retcode == 0 :
                                 print("geth Success!")
@@ -583,10 +583,9 @@ def main():
                             
                             index += 1
                             totalVarient += 1
-                            return 0
     
 
-def print_report():
+def send_report(time1, time2):
     """
     Show final report
     """
@@ -594,9 +593,84 @@ def print_report():
     title = "Detection Report"
     print(fmt(color.YELLOW, title.center(os.get_terminal_size().columns)))
 
-    print("\n")
+    totalVarient = 1
+    if totalVarient == 0:
+        print("Error occurs and no work done.")
+        return 0
+    
+    per1 = round((1.0 * X1 / totalVarient), 2)
+    per2 = round((1.0 * X2 / totalVarient), 2)
+    per3 = round((1.0 * X3 / totalVarient), 2)
+    per4 = round((1.0 * X4 / totalVarient), 2)
+    per5 = round((1.0 * X5 / totalVarient), 2)
+    per6 = round((1.0 * X6 / totalVarient), 2)
+    per7 = round((1.0 * X7 / totalVarient), 2)
+    
+    print("\nAfter {:.2f}s running, EVMFuzzer successfully generated {} seeds.".format((time2-time1), totalVarient))
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per1)+'%'), end='')
+    print(" ({}/{}) of the tests, the output results are different from the standard execution.".format(X1, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per2)+'%'), end='')
+    print(" ({}/{}) of the tests, the gas consuming are more than the average value.".format(X2, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per3)+'%'), end='')
+    print(" ({}/{}) of the tests, the gas consuming are less than the average value.".format(X3, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per4)+'%'), end='')
+    print(" ({}/{}) of the tests, the gas consuming are equal to the average value.".format(X4, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per5)+'%'), end='')
+    print(" ({}/{}) of the tests, the execution sequence are more than the average value.".format(X5, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per6)+'%'), end='')
+    print(" ({}/{}) of the tests, the execution sequence are less than the average value.".format(X6, totalVarient))
+
+    print("   > In ", end='')
+    print(fmt(color.RED, str(per7)+'%'), end='')
+    print(" ({}/{}) of the tests, the execution sequence are equal to the average value.".format(X7, totalVarient))
+
+    # make conclusion
+    print("\nFinal Conslusion:")
+    if per1 < 1.0 :
+        print(fmt(color.YELLOW, "1. The code implementation of test EVM is relatively complete, can be used for Ethereum."))
+    else :
+        print(fmt(color.YELLOW, "1. The code implementation of test EVM is incomplete, cannot be used for Ethereum."))
+    if per4 > 50.0 :
+        print(fmt(color.YELLOW, "2. The calculation of gas is accurate, "), end='')
+    else :
+        print(fmt(color.YELLOW, "2. The deviation of gas calculation is large, "), end='')
+    if per3 > 0.0 :
+        print(fmt(color.YELLOW, "there exists dynamic optimization during the calculation process, "), end='')
+    else :
+        print(fmt(color.YELLOW, "there is no dynamic optimization during the calculation process, "), end='')
+    if per3 > per2 :
+        print(fmt(color.YELLOW, "and the optimization effect is good."))
+    else :
+        print(fmt(color.YELLOW, "which need further improvement."))
+
+    if per7 > 50.0 :
+        print(fmt(color.YELLOW, "3. The execution path planning is correct, "), end='')
+    else :
+        print(fmt(color.YELLOW, "3. The deviation of executing sequence is large, "), end='')
+    if per6 > 0.0 :
+        print(fmt(color.YELLOW, "there exists dynamic optimization during the executing procedure, "), end='')
+    else :
+        print(fmt(color.YELLOW, "there is no dynamic optimization during the executing procedure, "), end='')
+    if per6 > per5 :
+        print(fmt(color.YELLOW, "and the optimization effect is good."))
+    else :
+        print(fmt(color.YELLOW, "which need further improvement."))
+
 
 if __name__ == '__main__':
     show_help()
+    start_time = time.time()
     main()
-    print_report()
+    end_time = time.time()
+    send_report(start_time, end_time)

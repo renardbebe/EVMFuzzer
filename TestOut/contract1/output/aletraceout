@@ -410,7 +410,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "169",
-      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x04", "0x51" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x04", "0x09" ]
    },
    {
       "depth" : "0",
@@ -418,7 +418,7 @@
       "gasCost" : "3",
       "op" : "PUSH1",
       "pc" : "170",
-      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x51", "0x04" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x09", "0x04" ]
    },
    {
       "depth" : "0",
@@ -426,7 +426,7 @@
       "gasCost" : "3",
       "op" : "ADD",
       "pc" : "172",
-      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x51", "0x04", "0x20" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x09", "0x04", "0x20" ]
    },
    {
       "depth" : "0",
@@ -434,7 +434,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "173",
-      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x51", "0x24" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x09", "0x24" ]
    },
    {
       "depth" : "0",
@@ -442,7 +442,7 @@
       "gasCost" : "3",
       "op" : "SWAP3",
       "pc" : "174",
-      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x24", "0x51" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x44", "0x04", "0x24", "0x09" ]
    },
    {
       "depth" : "0",
@@ -450,7 +450,7 @@
       "gasCost" : "3",
       "op" : "SWAP2",
       "pc" : "175",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x04", "0x24", "0x44" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x04", "0x24", "0x44" ]
    },
    {
       "depth" : "0",
@@ -458,7 +458,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "176",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x24", "0x04" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x24", "0x04" ]
    },
    {
       "depth" : "0",
@@ -466,7 +466,7 @@
       "gasCost" : "3",
       "op" : "DUP1",
       "pc" : "177",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x24" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x24" ]
    },
    {
       "depth" : "0",
@@ -474,7 +474,7 @@
       "gasCost" : "3",
       "op" : "CALLDATALOAD",
       "pc" : "178",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x24", "0x24" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x24", "0x24" ]
    },
    {
       "depth" : "0",
@@ -482,7 +482,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "179",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x24", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x24", "0x52" ]
    },
    {
       "depth" : "0",
@@ -490,7 +490,7 @@
       "gasCost" : "3",
       "op" : "PUSH1",
       "pc" : "180",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x1c", "0x24" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x52", "0x24" ]
    },
    {
       "depth" : "0",
@@ -498,7 +498,7 @@
       "gasCost" : "3",
       "op" : "ADD",
       "pc" : "182",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x1c", "0x24", "0x20" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x52", "0x24", "0x20" ]
    },
    {
       "depth" : "0",
@@ -506,7 +506,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "183",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x1c", "0x44" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x52", "0x44" ]
    },
    {
       "depth" : "0",
@@ -514,7 +514,7 @@
       "gasCost" : "3",
       "op" : "SWAP3",
       "pc" : "184",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x44", "0x04", "0x44", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x44", "0x04", "0x44", "0x52" ]
    },
    {
       "depth" : "0",
@@ -522,7 +522,7 @@
       "gasCost" : "3",
       "op" : "SWAP2",
       "pc" : "185",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x04", "0x44", "0x44" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x04", "0x44", "0x44" ]
    },
    {
       "depth" : "0",
@@ -530,7 +530,7 @@
       "gasCost" : "3",
       "op" : "SWAP1",
       "pc" : "186",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x44", "0x44", "0x04" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x44", "0x44", "0x04" ]
    },
    {
       "depth" : "0",
@@ -538,7 +538,7 @@
       "gasCost" : "2",
       "op" : "POP",
       "pc" : "187",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x44", "0x04", "0x44" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x44", "0x04", "0x44" ]
    },
    {
       "depth" : "0",
@@ -546,7 +546,7 @@
       "gasCost" : "2",
       "op" : "POP",
       "pc" : "188",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x44", "0x04" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x44", "0x04" ]
    },
    {
       "depth" : "0",
@@ -554,7 +554,7 @@
       "gasCost" : "2",
       "op" : "POP",
       "pc" : "189",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x44" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x44" ]
    },
    {
       "depth" : "0",
@@ -562,7 +562,7 @@
       "gasCost" : "3",
       "op" : "PUSH2",
       "pc" : "190",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52" ]
    },
    {
       "depth" : "0",
@@ -570,7 +570,7 @@
       "gasCost" : "8",
       "op" : "JUMPC",
       "pc" : "193",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x013a" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x013a" ]
    },
    {
       "depth" : "0",
@@ -578,7 +578,7 @@
       "gasCost" : "1",
       "op" : "JUMPDEST",
       "pc" : "314",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52" ]
    },
    {
       "depth" : "0",
@@ -586,7 +586,7 @@
       "gasCost" : "3",
       "op" : "PUSH1",
       "pc" : "315",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52" ]
    },
    {
       "depth" : "0",
@@ -594,7 +594,7 @@
       "gasCost" : "3",
       "op" : "DUP1",
       "pc" : "317",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00" ]
    },
    {
       "depth" : "0",
@@ -602,7 +602,7 @@
       "gasCost" : "3",
       "op" : "DUP3",
       "pc" : "318",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00" ]
    },
    {
       "depth" : "0",
@@ -610,7 +610,7 @@
       "gasCost" : "3",
       "op" : "DUP5",
       "pc" : "319",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x1c" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x52" ]
    },
    {
       "depth" : "0",
@@ -618,7 +618,7 @@
       "gasCost" : "3",
       "op" : "GT",
       "pc" : "320",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x1c", "0x51" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x52", "0x09" ]
    },
    {
       "depth" : "0",
@@ -626,7 +626,7 @@
       "gasCost" : "3",
       "op" : "ISZERO",
       "pc" : "321",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x01" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x00" ]
    },
    {
       "depth" : "0",
@@ -634,7 +634,7 @@
       "gasCost" : "3",
       "op" : "PUSH2",
       "pc" : "322",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x00" ]
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x01" ]
    },
    {
       "depth" : "0",
@@ -645,202 +645,152 @@
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
-         "0x00",
+         "0x01",
          "0x0163"
       ]
    },
    {
       "depth" : "0",
       "gas" : "9223372036854775527",
-      "gasCost" : "3",
-      "op" : "PUSH1",
-      "pc" : "326",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00" ]
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "355",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00" ]
    },
    {
       "depth" : "0",
-      "gas" : "9223372036854775524",
+      "gas" : "9223372036854775526",
       "gasCost" : "3",
-      "op" : "DUP4",
-      "pc" : "328",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x00" ]
+      "op" : "DUP3",
+      "pc" : "356",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00" ]
    },
    {
       "depth" : "0",
-      "gas" : "9223372036854775521",
+      "gas" : "9223372036854775523",
       "gasCost" : "3",
-      "op" : "DUP6",
-      "pc" : "329",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x00", "0x1c" ]
+      "op" : "DUP5",
+      "pc" : "357",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x52" ]
    },
    {
       "depth" : "0",
-      "gas" : "9223372036854775518",
+      "gas" : "9223372036854775520",
       "gasCost" : "3",
-      "op" : "ADD",
-      "pc" : "330",
+      "op" : "LT",
+      "pc" : "358",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x52", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775517",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "359",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x01" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775514",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "360",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x00" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775511",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "363",
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
          "0x00",
-         "0x1c",
-         "0x51"
-      ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775515",
-      "gasCost" : "3",
-      "op" : "SWAP1",
-      "pc" : "331",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x00", "0x6d" ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775512",
-      "gasCost" : "2",
-      "op" : "POP",
-      "pc" : "332",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x6d", "0x00" ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775510",
-      "gasCost" : "3",
-      "op" : "PUSH1",
-      "pc" : "333",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x6d" ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775507",
-      "gasCost" : "3",
-      "op" : "DUP2",
-      "pc" : "335",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x6d", "0x00" ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775504",
-      "gasCost" : "3",
-      "op" : "SWAP1",
-      "pc" : "336",
-      "stack" : [
-         "0x87f71cef",
-         "0xc2",
-         "0x51",
-         "0x1c",
-         "0x00",
-         "0x00",
-         "0x6d",
-         "0x00",
-         "0x6d"
+         "0x0184"
       ]
    },
    {
       "depth" : "0",
       "gas" : "9223372036854775501",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "364",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775498",
+      "gasCost" : "3",
+      "op" : "DUP4",
+      "pc" : "366",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x00" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775495",
+      "gasCost" : "3",
+      "op" : "DUP6",
+      "pc" : "367",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x00", "0x00", "0x52" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775492",
+      "gasCost" : "3",
+      "op" : "SUB",
+      "pc" : "368",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0x00",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775489",
+      "gasCost" : "3",
+      "op" : "SWAP1",
+      "pc" : "369",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775486",
       "gasCost" : "2",
       "op" : "POP",
-      "pc" : "337",
+      "pc" : "370",
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
-         "0x6d",
-         "0x6d",
-         "0x00"
-      ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775499",
-      "gasCost" : "3",
-      "op" : "DUP1",
-      "pc" : "338",
-      "stack" : [ "0x87f71cef", "0xc2", "0x51", "0x1c", "0x00", "0x00", "0x6d", "0x6d" ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775496",
-      "gasCost" : "3",
-      "op" : "DUP3",
-      "pc" : "339",
-      "stack" : [
-         "0x87f71cef",
-         "0xc2",
-         "0x51",
-         "0x1c",
-         "0x00",
-         "0x00",
-         "0x6d",
-         "0x6d",
-         "0x6d"
-      ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775493",
-      "gasCost" : "3",
-      "op" : "EQ",
-      "pc" : "340",
-      "stack" : [
-         "0x87f71cef",
-         "0xc2",
-         "0x51",
-         "0x1c",
-         "0x00",
-         "0x00",
-         "0x6d",
-         "0x6d",
-         "0x6d",
-         "0x6d"
-      ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775490",
-      "gasCost" : "3",
-      "op" : "ISZERO",
-      "pc" : "341",
-      "stack" : [
-         "0x87f71cef",
-         "0xc2",
-         "0x51",
-         "0x1c",
-         "0x00",
-         "0x00",
-         "0x6d",
-         "0x6d",
-         "0x01"
-      ]
-   },
-   {
-      "depth" : "0",
-      "gas" : "9223372036854775487",
-      "gasCost" : "3",
-      "op" : "ISZERO",
-      "pc" : "342",
-      "stack" : [
-         "0x87f71cef",
-         "0xc2",
-         "0x51",
-         "0x1c",
-         "0x00",
-         "0x00",
-         "0x6d",
-         "0x6d",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
          "0x00"
       ]
    },
@@ -848,55 +798,1864 @@
       "depth" : "0",
       "gas" : "9223372036854775484",
       "gasCost" : "3",
-      "op" : "ISZERO",
-      "pc" : "343",
+      "op" : "PUSH1",
+      "pc" : "371",
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
-         "0x6d",
-         "0x6d",
-         "0x01"
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
       ]
    },
    {
       "depth" : "0",
       "gas" : "9223372036854775481",
       "gasCost" : "3",
-      "op" : "PUSH2",
-      "pc" : "344",
+      "op" : "DUP2",
+      "pc" : "373",
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
-         "0x6d",
-         "0x6d",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
          "0x00"
       ]
    },
    {
       "depth" : "0",
       "gas" : "9223372036854775478",
-      "gasCost" : "10",
-      "op" : "JUMPCI",
-      "pc" : "347",
+      "gasCost" : "3",
+      "op" : "LT",
+      "pc" : "374",
       "stack" : [
          "0x87f71cef",
          "0xc2",
-         "0x51",
-         "0x1c",
+         "0x09",
+         "0x52",
          "0x00",
          "0x00",
-         "0x6d",
-         "0x6d",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
          "0x00",
-         "0x015d"
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
       ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775475",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "375",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775472",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "376",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775469",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "377",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775466",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "378",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775463",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "381",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01",
+         "0x017f"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775453",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "383",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775452",
+      "gasCost" : "3",
+      "op" : "DUP1",
+      "pc" : "384",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775449",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "385",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775446",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "386",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775444",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "387",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775442",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "388",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775441",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "389",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775438",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "390",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775435",
+      "gasCost" : "3",
+      "op" : "EQ",
+      "pc" : "391",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775432",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "392",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775429",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "393",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775426",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "396",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01",
+         "0x01b0"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775416",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "432",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775415",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "433",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775412",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "434",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775409",
+      "gasCost" : "3",
+      "op" : "LT",
+      "pc" : "435",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775406",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "436",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775403",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "437",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775400",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "438",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775397",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "441",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01",
+         "0x01d8"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775387",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "472",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775386",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "473",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775383",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "474",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775380",
+      "gasCost" : "3",
+      "op" : "GT",
+      "pc" : "475",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775377",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "476",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775374",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "477",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775371",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "478",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775368",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "481",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x020b"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775358",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "482",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775355",
+      "gasCost" : "3",
+      "op" : "DUP4",
+      "pc" : "484",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775352",
+      "gasCost" : "3",
+      "op" : "DUP6",
+      "pc" : "485",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775349",
+      "gasCost" : "3",
+      "op" : "DUP2",
+      "pc" : "486",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775346",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "487",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775343",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "488",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775340",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "489",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775337",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "492",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09",
+         "0x01",
+         "0x01ee"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775327",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "494",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775326",
+      "gasCost" : "5",
+      "op" : "DIV",
+      "pc" : "495",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775321",
+      "gasCost" : "3",
+      "op" : "SWAP1",
+      "pc" : "496",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775318",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "497",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775316",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "498",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775313",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "500",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775310",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "502",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775307",
+      "gasCost" : "3",
+      "op" : "SUB",
+      "pc" : "503",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00",
+         "0x01",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775304",
+      "gasCost" : "3",
+      "op" : "SWAP1",
+      "pc" : "504",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775301",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "505",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775299",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "506",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775296",
+      "gasCost" : "3",
+      "op" : "DUP2",
+      "pc" : "508",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x0a"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775293",
+      "gasCost" : "3",
+      "op" : "GT",
+      "pc" : "509",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x0a",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775290",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "510",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775287",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "511",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775284",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "512",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775281",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "515",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x01",
+         "0x0205"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775271",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "517",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775270",
+      "gasCost" : "3",
+      "op" : "DUP1",
+      "pc" : "518",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775267",
+      "gasCost" : "3",
+      "op" : "SWAP3",
+      "pc" : "519",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775264",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "520",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffb7"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775262",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "521",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775260",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "522",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775258",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "523",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775257",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "524",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775254",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "525",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775251",
+      "gasCost" : "3",
+      "op" : "EQ",
+      "pc" : "526",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775248",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "527",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775245",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "528",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775242",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "529",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775239",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "532",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x0237"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775229",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "533",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775226",
+      "gasCost" : "3",
+      "op" : "DUP1",
+      "pc" : "535",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775223",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "536",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775220",
+      "gasCost" : "3",
+      "op" : "DUP7",
+      "pc" : "537",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775217",
+      "gasCost" : "3",
+      "op" : "GT",
+      "pc" : "538",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775214",
+      "gasCost" : "3",
+      "op" : "ISZERO",
+      "pc" : "539",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775211",
+      "gasCost" : "3",
+      "op" : "PUSH2",
+      "pc" : "540",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x01"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775208",
+      "gasCost" : "10",
+      "op" : "JUMPCI",
+      "pc" : "543",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x01",
+         "0x022a"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775198",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "554",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775197",
+      "gasCost" : "3",
+      "op" : "DUP6",
+      "pc" : "555",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775194",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "556",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x00",
+         "0x00",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775191",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "557",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x00",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775189",
+      "gasCost" : "3",
+      "op" : "DUP5",
+      "pc" : "558",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775186",
+      "gasCost" : "3",
+      "op" : "SWAP1",
+      "pc" : "559",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x00",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775183",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "560",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x52",
+         "0x00"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775181",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "561",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775180",
+      "gasCost" : "3",
+      "op" : "DUP2",
+      "pc" : "562",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x52"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775177",
+      "gasCost" : "3",
+      "op" : "SWAP3",
+      "pc" : "563",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+         "0x09",
+         "0x52",
+         "0x09"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775174",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "564",
+      "stack" : [
+         "0x87f71cef",
+         "0xc2",
+         "0x09",
+         "0x52",
+         "0x00",
+         "0x09",
+         "0x09",
+         "0x52",
+         "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff"
+      ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775172",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "565",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x09", "0x09", "0x52" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775170",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "566",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x09", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775168",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "567",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775167",
+      "gasCost" : "3",
+      "op" : "DUP1",
+      "pc" : "568",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775164",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "569",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x00", "0x09", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775161",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "570",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x09", "0x09", "0x00" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775159",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "571",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x09", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775157",
+      "gasCost" : "3",
+      "op" : "SWAP3",
+      "pc" : "572",
+      "stack" : [ "0x87f71cef", "0xc2", "0x09", "0x52", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775154",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "573",
+      "stack" : [ "0x87f71cef", "0x09", "0x09", "0x52", "0xc2" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775151",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "574",
+      "stack" : [ "0x87f71cef", "0x09", "0xc2", "0x52", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775149",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "575",
+      "stack" : [ "0x87f71cef", "0x09", "0xc2", "0x52" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775147",
+      "gasCost" : "8",
+      "op" : "JUMP",
+      "pc" : "576",
+      "stack" : [ "0x87f71cef", "0x09", "0xc2" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775139",
+      "gasCost" : "1",
+      "op" : "JUMPDEST",
+      "pc" : "194",
+      "stack" : [ "0x87f71cef", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775138",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "195",
+      "stack" : [ "0x87f71cef", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775135",
+      "gasCost" : "3",
+      "op" : "MLOAD",
+      "pc" : "197",
+      "stack" : [ "0x87f71cef", "0x09", "0x40" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775132",
+      "gasCost" : "3",
+      "memory" : [
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000080"
+      ],
+      "op" : "DUP1",
+      "pc" : "198",
+      "stack" : [ "0x87f71cef", "0x09", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775129",
+      "gasCost" : "3",
+      "op" : "DUP3",
+      "pc" : "199",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775126",
+      "gasCost" : "3",
+      "op" : "DUP2",
+      "pc" : "200",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0x80", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775123",
+      "gasCost" : "3",
+      "op" : "MSTORE",
+      "pc" : "201",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0x80", "0x09", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775114",
+      "gasCost" : "3",
+      "memory" : [
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000080",
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000009"
+      ],
+      "op" : "PUSH1",
+      "pc" : "202",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775111",
+      "gasCost" : "3",
+      "op" : "ADD",
+      "pc" : "204",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0x80", "0x20" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775108",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "205",
+      "stack" : [ "0x87f71cef", "0x09", "0x80", "0xa0" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775105",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "206",
+      "stack" : [ "0x87f71cef", "0xa0", "0x80", "0x09" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775103",
+      "gasCost" : "2",
+      "op" : "POP",
+      "pc" : "207",
+      "stack" : [ "0x87f71cef", "0xa0", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775101",
+      "gasCost" : "3",
+      "op" : "PUSH1",
+      "pc" : "208",
+      "stack" : [ "0x87f71cef", "0xa0" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775098",
+      "gasCost" : "3",
+      "op" : "MLOAD",
+      "pc" : "210",
+      "stack" : [ "0x87f71cef", "0xa0", "0x40" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775095",
+      "gasCost" : "3",
+      "memory" : [
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000080",
+         "0000000000000000000000000000000000000000000000000000000000000000",
+         "0000000000000000000000000000000000000000000000000000000000000009"
+      ],
+      "op" : "DUP1",
+      "pc" : "211",
+      "stack" : [ "0x87f71cef", "0xa0", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775092",
+      "gasCost" : "3",
+      "op" : "SWAP2",
+      "pc" : "212",
+      "stack" : [ "0x87f71cef", "0xa0", "0x80", "0x80" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775089",
+      "gasCost" : "3",
+      "op" : "SUB",
+      "pc" : "213",
+      "stack" : [ "0x87f71cef", "0x80", "0x80", "0xa0" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775086",
+      "gasCost" : "3",
+      "op" : "SWAP1",
+      "pc" : "214",
+      "stack" : [ "0x87f71cef", "0x80", "0x20" ]
+   },
+   {
+      "depth" : "0",
+      "gas" : "9223372036854775083",
+      "gasCost" : "0",
+      "op" : "RETURN",
+      "pc" : "215",
+      "stack" : [ "0x87f71cef", "0x20", "0x80" ]
    }
 ]
