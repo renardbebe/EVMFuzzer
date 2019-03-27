@@ -9,7 +9,7 @@ import heapq
 import generate_input
 import json
 
-PROJECT_DIR = "/home/rm/Desktop/EVMFuzzer"
+PROJECT_DIR = "/home/rm/Desktop/EVMFuzzer"    # need to be modified
 contractPATH = PROJECT_DIR + "/contract/"
 testPATH = PROJECT_DIR + "/TestOut/"
 
@@ -94,7 +94,7 @@ def preProcess(seedPATH, fileName):
     Preprocess of smart contracts
     """
     f1 = open(contractPATH + fileName, 'r')
-    f2 = open(seedPATH + "PreProcess" + "_" + fileName, 'w')
+    f2 = open(seedPATH + "PreProcess_" + fileName, 'w')
 
     for _, line in enumerate(f1):
         if line.find("pragma") >= 0:
@@ -229,19 +229,23 @@ def main():
     print(fmt(color.RED, "\nPlease put your source code under **myEVM folder** and provide the trasaction interface."))
     print(fmt(color.RED, "The interface form should like: xxxxxx --code A --input B"))
     print(fmt(color.RED, "where A is the runtime code of contract, and B is the input data for transaction."))
-    cmd = input()
+    print(fmt(color.YELLOW, "E.g.  python3 /home/usr/project/myEVM/runTx.py --code A --data B"))
+    ori = input()
 
     need_prefix = True
     print(fmt(color.RED, "Does the input data need '0x' prefix? The default setting is Yes. (Y/N)"))
-    flag = input()
+    flag = input().upper()
     if flag.find("N") >= 0 :
         need_prefix = False
+
+    ### For Test run
+    ori = "python3 " + PROJECT_DIR + "/myEVM/runTx.py --code A --data B"
 
     for _, _, filenames in os.walk(contractPATH, followlinks=True):
         # Step 1.遍历合约
         for fileName in filenames:
             curC += 1
-            dirPATH = testPATH + "contract" + str(curC) + "/"
+            dirPATH = testPATH + "contract" + str(curC) + "/" 
             binPATH, seedPATH, outputPATH = create_folder(dirPATH)
             
             contractList = []
@@ -258,7 +262,7 @@ def main():
             # del_folder(seedPATH)
 
             preProcess(seedPATH, fileName)
-            fileName = "PreProcess" + "_" + fileName
+            fileName = "PreProcess_" + fileName
 
             # 生成函数签名
             retcode = subprocess.call("solc " + seedPATH + fileName + " --hashes -o " + dirPATH, shell=True)
@@ -304,7 +308,7 @@ def main():
                         index = 0
 
                         # 循环50次
-                        while index <= 50:
+                        while index < 50:
                             # a = index % (len(contractList))
                             # fileName = contractList[a]
 
@@ -333,13 +337,12 @@ def main():
                                         continue
 
                                     contract = fileName.split(".sol")[0] + "_" + str(index) + ".sol"
-                                    # contract = fileName + "_index" + str(index)
 
 
                             # 删除bin文件夹 solc编译
                             # subprocess.call("rm -rf " + dirPATH + "bincode", shell=True)
                             print("Generating bytecode.")
-                            retcode = subprocess.call("solc --bin-runtime " + seedPATH + contract + " -o " + binPATH + "bincode" + str(index), shell=True)
+                            retcode = subprocess.call("solc --bin-runtime " + seedPATH + contract + " -o " + binPATH + "bincode_" + funcName + "_" + str(index), shell=True)
                             
                             if(retcode == 1):
                                 print(retcode, contract)
@@ -349,7 +352,7 @@ def main():
                             print("Done!")
 
                             # 读取bincode
-                            path_list = binPATH + "bincode" + str(index) + "/"
+                            path_list = binPATH + "bincode_" + funcName + "_" + str(index) + "/"
                             for f in os.listdir(path_list):
                                 if os.path.splitext(f)[1] == '.bin-runtime':  # 判断文件后缀
                                     codefile = open(path_list + f, "r")
@@ -406,11 +409,12 @@ def main():
                                 print("aleth Fail!")
 
                             # test EVM
-                            tmp = cmd.replace("A", bincode)
+                            tmp = ori.replace("A", bincode)
                             if need_prefix:
                                 cmd = tmp.replace("B", sigName)
                             else :
                                 cmd = tmp.replace("B", sigName[2:])
+                            # print(cmd)
                             retcode = subprocess.call(cmd + " > " + outputPATH + "myout.json",
                                 shell=True)
                             if retcode == 0 :
@@ -566,16 +570,16 @@ def main():
                             if (my_output != js_output) and (my_output != py_output) and (my_output != geth_output) and (my_output != aleth_output):
                                 X1 += 1
                             # gasUsed
-                            if my_gas > 1.2 * avg_gas :
+                            if my_gas > int(1.5 * avg_gas) :
                                 X2 += 1
-                            elif my_gas < 0.8 * avg_gas :
+                            elif my_gas < int(0.5 * avg_gas) :
                                 X3 += 1
                             else :
                                 X4 += 1
                             # opcode sequence
-                            if my_op > 1.01 * avg_op :
+                            if my_op > int(1.5 * avg_op) :
                                 X5 += 1
-                            elif my_op < 0.99 * avg_op :
+                            elif my_op < int(0.5 * avg_op) :
                                 X6 += 1
                             else :
                                 X7 += 1
@@ -593,18 +597,17 @@ def send_report(time1, time2):
     title = "Detection Report"
     print(fmt(color.YELLOW, title.center(os.get_terminal_size().columns)))
 
-    totalVarient = 1
     if totalVarient == 0:
-        print("Error occurs and no work done.")
+        print("ERROR! Exception occurs and no work done.")
         return 0
     
-    per1 = round((1.0 * X1 / totalVarient), 2)
-    per2 = round((1.0 * X2 / totalVarient), 2)
-    per3 = round((1.0 * X3 / totalVarient), 2)
-    per4 = round((1.0 * X4 / totalVarient), 2)
-    per5 = round((1.0 * X5 / totalVarient), 2)
-    per6 = round((1.0 * X6 / totalVarient), 2)
-    per7 = round((1.0 * X7 / totalVarient), 2)
+    per1 = round((100.0 * X1 / totalVarient), 2)
+    per2 = round((100.0 * X2 / totalVarient), 2)
+    per3 = round((100.0 * X3 / totalVarient), 2)
+    per4 = round((100.0 * X4 / totalVarient), 2)
+    per5 = round((100.0 * X5 / totalVarient), 2)
+    per6 = round((100.0 * X6 / totalVarient), 2)
+    per7 = round((100.0 * X7 / totalVarient), 2)
     
     print("\nAfter {:.2f}s running, EVMFuzzer successfully generated {} seeds.".format((time2-time1), totalVarient))
     print("   > In ", end='')
@@ -641,7 +644,7 @@ def send_report(time1, time2):
         print(fmt(color.YELLOW, "1. The code implementation of test EVM is relatively complete, can be used for Ethereum."))
     else :
         print(fmt(color.YELLOW, "1. The code implementation of test EVM is incomplete, cannot be used for Ethereum."))
-    if per4 > 50.0 :
+    if per3 <= 50.0 and per2 <= 50:
         print(fmt(color.YELLOW, "2. The calculation of gas is accurate, "), end='')
     else :
         print(fmt(color.YELLOW, "2. The deviation of gas calculation is large, "), end='')
@@ -654,7 +657,7 @@ def send_report(time1, time2):
     else :
         print(fmt(color.YELLOW, "which need further improvement."))
 
-    if per7 > 50.0 :
+    if per6 <= 50.0 and per5 <= 50:
         print(fmt(color.YELLOW, "3. The execution path planning is correct, "), end='')
     else :
         print(fmt(color.YELLOW, "3. The deviation of executing sequence is large, "), end='')
