@@ -9,7 +9,7 @@ import heapq
 import generate_input
 import json
 
-PROJECT_DIR = "/home/rm/Desktop/EVMFuzzer"    # need to be modified
+PROJECT_DIR = "/home/rm/Desktop/EVMFuzzer"    # NEED TO BE MODIFIED
 contractPATH = PROJECT_DIR + "/contract/"
 testPATH = PROJECT_DIR + "/TestOut/"
 
