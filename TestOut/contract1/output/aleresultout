@@ -1,0 +1,9 @@
+Gas used: 25443 (+21592 for transaction, -0 refunded)
+Output: 
+0 logs.
+115 operations in 0.00014 seconds.
+Maximum memory usage: 0 bytes
+Expensive operations:
+  SSTORE x 2 (0 gas)
+  SLOAD x 1 (50 gas)
+  MSTORE x 1 (3 gas)

@@ -578,7 +578,7 @@ def main():
                             # opcode sequence
                             if my_op > int(1.55 * avg_op) :
                                 X5 += 1
-                            elif my_op < int(1.45 * avg_op) :
+                            elif my_op < int(1.35 * avg_op) :
                                 X6 += 1
                             else :
                                 X7 += 1
