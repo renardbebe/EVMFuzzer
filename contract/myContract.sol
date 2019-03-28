@@ -4,11 +4,6 @@ contract MyContract{
     bool public flag;
     uint public money;
 
-    constructor() public {
-        flag = false;
-        money = 0;
-    }
-
     function set(bool a, uint b) public {
         flag = a;
         money = b;

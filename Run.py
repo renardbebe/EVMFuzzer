@@ -50,9 +50,6 @@ def show_help():
     print("   3 >> Fuzzing.")
     print("   4 >> Sending the report.")
 
-    print("\nRECOMMEND:")
-    print("   solc v0.4.24")
-
 
 def create_folder(dirPATH):
     """
@@ -348,6 +345,8 @@ def main():
                                 print(retcode, contract)
                                 # os._exit(0)
                                 os.remove(seedPATH + contract)
+                                if contract in contractList :
+                                    contractList.remove(contract)
                                 continue
                             print("Done!")
 
@@ -570,16 +569,16 @@ def main():
                             if (my_output != js_output) and (my_output != py_output) and (my_output != geth_output) and (my_output != aleth_output):
                                 X1 += 1
                             # gasUsed
-                            if my_gas > int(1.5 * avg_gas) :
+                            if my_gas > int(1.3 * avg_gas) :
                                 X2 += 1
-                            elif my_gas < int(0.5 * avg_gas) :
+                            elif my_gas < int(0.8 * avg_gas) :
                                 X3 += 1
                             else :
                                 X4 += 1
                             # opcode sequence
-                            if my_op > int(1.5 * avg_op) :
+                            if my_op > int(1.55 * avg_op) :
                                 X5 += 1
-                            elif my_op < int(0.5 * avg_op) :
+                            elif my_op < int(1.45 * avg_op) :
                                 X6 += 1
                             else :
                                 X7 += 1
