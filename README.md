@@ -38,7 +38,7 @@ More details can be found in the following repositories:
 
 [py-evm](https://github.com/pipermerriam/py-evm)   [aleth](https://github.com/ethereum/aleth)   [js-evm](https://github.com/ethereumjs/ethereumjs-vm)   [geth](https://github.com/ethereum/go-ethereum)
 
-Next, clone the responstory, put the **source code** of your EVM in **myEVM/** folder and modify the PROJECT_PATH in Run.py.
+Next, clone the responstory, put the **source code** of your EVM in **myEVM/** folder and modify the **PROJECT_PATH** in Run.py.
 
 Finally, you can execute a python virtualenv just in case.
 
