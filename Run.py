@@ -235,6 +235,12 @@ def main():
     if flag.find("N") >= 0 :
         need_prefix = False
 
+    maxIter = 100
+    print(fmt(color.RED, "Please set fuzz times: (The default setting is 100)"))
+    times = input()
+    if times != "":
+        maxIter = int(times)
+
     ### For Test run
     ori = "python3 " + PROJECT_DIR + "/myEVM/runTx.py --code A --data B"
 
@@ -305,7 +311,7 @@ def main():
                         index = 0
 
                         # 循环50次
-                        while index < 50:
+                        while index < maxIter:
                             # a = index % (len(contractList))
                             # fileName = contractList[a]
 
