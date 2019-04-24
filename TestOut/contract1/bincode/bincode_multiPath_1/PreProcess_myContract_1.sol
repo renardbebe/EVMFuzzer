@@ -9,10 +9,10 @@ contract MyContract{
         money = b;
     }
     
-    function multiPath(uint a, uint b) public {
+    function multiPath(uint a, uint b) public returns (uint){
         uint d;
         if (a > b) {
-            uint c1 = a / b;
+            uint c1 = a + b;
             uint d1 = c1;
             assert(c1 != d1);
             d = d1;
@@ -23,19 +23,20 @@ contract MyContract{
             d = c2;
         }
         if (a == b) {
-            for (uint i = 0; i < 10+99; ++i) {
-                a *= b;
+            for (uint i = 0; i < 10; ++i) {
+break;
+                a += b;
             }
             d = a;
         }
         if (a >= b) {
-            uint c3 = a / b;
+            uint c3 = a * b;
             uint d3 = 20;
             assert(c3 != d3);
             d = c3;
         }
         if (a <= b) {
-            uint c4 = a * b;
+            uint c4 = a / b;
             uint d4 = c4 - 1;
             assert(d4 > 10);
             d = d4;
@@ -53,5 +54,6 @@ contract MyContract{
             }
             d = x;
         }
+        return d;
     }
 }

@@ -272,6 +272,8 @@ def main():
             if(retcode == 1):
                 os.remove(seedPATH + fileName)
                 continue
+            print("Done!")
+            p1 = input()
 
             # 初始种子
             contractList.append(fileName)
@@ -305,6 +307,7 @@ def main():
                         sigName = sig + inputData
                         print("Select contract: {}, function: {}".format(fileName, funcName))
                         print("Input data: {}".format(sigName))
+                        p2 = input()
 
                         choice = []
                         weight = {}
@@ -331,6 +334,7 @@ def main():
                                 shutil.copyfile(seedPATH + fileName, seedPATH + fileName.split(".sol")[0] + "_" + str(index) + ".sol" )
 
                                 print("Combined mutators: {}".format(choice))
+                                p3 = input()
                                 for i in range(len(choice)) :
                                     retcode = subprocess.call(
                                         "python3 " + PROJECT_DIR + "/mutators_weight.py --file " + fileName.split(".sol")[0] + "_" + str(index) + ".sol" 
@@ -589,6 +593,7 @@ def main():
                             else :
                                 X7 += 1
                             print("Done!")
+                            p4 = input()
                             
                             index += 1
                             totalVarient += 1
